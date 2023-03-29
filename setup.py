@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
-with open("ReadME.md", "r", encoding="utf-8") as fh:
-    long_description = fh.read()
-with open("requirements.txt", "r", encoding="utf-8") as fh:
-    requirements = fh.read()
+with open("ReadME.md", "r", encoding="utf-8") as f:
+    long_description = f.read()
+with open("requirements.txt", "r", encoding="utf-8") as f:
+    requirements = f.read()
 
 setup(
     name="genpass",
